@@ -1,5 +1,3 @@
-# -task
-#word2vec+SVMによる感情分析タスク
 from sklearn.model_selection import train_test_split
 from gensim.models.word2vec import Word2Vec
 from sklearn import svm
